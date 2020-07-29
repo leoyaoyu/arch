@@ -4,9 +4,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.Stack;
-import java.util.function.BiConsumer;
-import java.util.function.Consumer;
 
+/**
+ * two linked list may have the same surfix, output the start element of the suffix;
+ * O(n), T(n)
+ */
 public class ApplicationTool {
 
   static Logger log = LoggerFactory.getLogger(ApplicationTool.class);
