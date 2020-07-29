@@ -1,0 +1,3 @@
+其实工厂模式比访问者模式好
+
+工厂模式中生产出来的Extractor和Compressor不一定都是同样的输入输出。但是visitor限制死了
