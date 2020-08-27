@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class PwdService {
 
-  public String PREFLIX = "pwd_";
+  public static final String PREFLIX = "pwd_";
 
   /**
    * generate a random string for salt in 5 bits
@@ -42,7 +42,7 @@ public class PwdService {
     } catch (Exception e) {
       e.printStackTrace();
     }
-    return result;
+    return PREFLIX + result;
   }
 
 
